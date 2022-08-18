@@ -11,7 +11,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
   # populando tabela de planos
   INSERT INTO SpotifyClone.plans(plan_name, plan_price)
   VALUES
-	('gratuito', 0),
+	  ('gratuito', 0),
     ('familiar', 7.99),
     ('universitário', 5.99),
     ('pessoal', 6.99);
